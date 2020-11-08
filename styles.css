@@ -17,6 +17,7 @@
 
 
 
+    
 }
 
 .item-article {
@@ -27,6 +28,10 @@
 
 }
 
+.promo2 {
+    display: flex;
+    
+}
 
 .publish h3 {
     font-family: "Alegreya", serif;
@@ -52,4 +57,16 @@
     color: #025157;
     margin-right: 18px;
 
+}
+
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
 }
